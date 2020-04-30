@@ -7,6 +7,14 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+
 .menu-superior, .navbar-brand {
 	background-color: #023264;
 	color: #1f1f1f;
@@ -107,4 +115,23 @@ footer {
 		font-size: 25px;
 	}
 	.mapa iframe { width: 90%; height: 250px;}
+}
+
+/*----------------------------*/
+
+#caixa-2 {
+	background-color: #d3d3d3;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
+
+#caixa-1 {
+	background-color: #edf765;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++*/
+
+.btn-login, .btn-esqueci {
+	margin: 1 rem;
 }
